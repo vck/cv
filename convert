@@ -1,0 +1,4 @@
+# convert to latex
+pandoc -f markdown -t latex cv.md -o cv.tex
+pandoc cv.tex -o cv.pdf
+
